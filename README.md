@@ -19,9 +19,9 @@ Moreover, to better fuse the registered infrared images and visible images, we p
 Extensive experimental results suggest that the proposed method performs superior capability on misaligned cross-modality image fusion.
 
 <div align=center>
-<img src="https://github.com/wdhudiekou/UMF-CMGR/Fig/network.png" width="60%">
+<img src="https://github.com/wdhudiekou/UMF-CMGR-main/Fig/network.png" width="60%">
 
-Fig1：An example from real-world datasets.
+Fig. 1：The workflow of the proposed unsupervised cross-modality fusion network for misaligned infrared and visible images.
 </div>
 
 ## Experimental Results
