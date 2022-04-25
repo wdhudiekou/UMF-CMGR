@@ -18,6 +18,11 @@ In this case, we introduce a Multi-level Refinement Registration Network (MRRN) 
 Moreover, to better fuse the registered infrared images and visible images, we present a feature Interaction Fusion Module (IFM) to adaptively select more meaningful features for fusion in the Dual-path Interaction Fusion Network (DIFN).
 Extensive experimental results suggest that the proposed method performs superior capability on misaligned cross-modality image fusion.
 
+<div align=center>
+<img src="https://github.com/wdhudiekou/UMF-CMGR/Fig/network.png" width="60%">
+
+Fig1：An example from real-world datasets.
+</div>
 
 ## Experimental Results
 Coming soon...
