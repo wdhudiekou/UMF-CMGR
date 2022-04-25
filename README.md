@@ -24,6 +24,18 @@ Extensive experimental results suggest that the proposed method performs superio
 Fig. 1：The workflow of the proposed unsupervised cross-modality fusion network for misaligned infrared and visible images.
 </div>
 
+## Requirements
+- CUDA 10.1
+- Python 3.6 (or later)
+- Pytorch 1.6.0
+- Torchvision 0.7.0
+- OpenCV 3.4
+
+## Dataset
+Please download the following datasets:
+* RoadScene  [[dataset](https://github.com/hanna-xu/RoadScene)]
+* TNO        [[dataset](http://figshare.com/articles/TNO\_Image\_Fusion\_Dataset/1008029)]
+
 ## Experimental Results
 Coming soon...
 
