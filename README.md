@@ -1,7 +1,7 @@
 # UMF-CMGR
  
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/csbhr/CDVD-TSP/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/wdhudiekou/UMF-CMGR/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-1.6.0-%237732a8)](https://pytorch.org/)
 
@@ -21,7 +21,7 @@ Extensive experimental results suggest that the proposed method performs superio
 <div align=center>
 <img src="https://github.com/wdhudiekou/UMF-CMGR/blob/main/Fig/network.png" width="80%">
 
-Fig. 1：The workflow of the proposed unsupervised cross-modality fusion network for misaligned infrared and visible images.
+
 </div>
 
 ## Requirements
