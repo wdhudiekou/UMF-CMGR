@@ -31,7 +31,23 @@
 
        cd ./Test
        python test_reg.py
-       
+
+2. If you tend to train Registration and Fusion processes separately, You can run following commands:      
+
+    ```python
+           cd ./Trainer
+           python train_reg.py
+    
+           cd ./Trainer
+           python train_fuse.py
+The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder.
+
+3. If you tend to train Registration and Fusion processes jointly, You can run following command: 
+   ```python
+           cd ./Trainer
+           python train_reg_fusion.py
+
+The corresponding test code 'test_reg_fusion.py' can be found in 'Test' folder.
 
 ## Dataset
 Please download the following datasets:
