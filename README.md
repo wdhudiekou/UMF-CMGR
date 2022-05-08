@@ -28,11 +28,10 @@
     ```python
        cd ./Trainer
        python train_reg.py
-       ```
-   ```python
+
        cd ./Test
        python test_reg.py
-       ```
+       
 
 ## Dataset
 Please download the following datasets:
