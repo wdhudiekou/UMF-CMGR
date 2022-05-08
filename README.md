@@ -12,8 +12,6 @@
 
 <div align=center>
 <img src="https://github.com/wdhudiekou/UMF-CMGR/blob/main/Fig/network.png" width="80%">
-
-
 </div>
 
 ## Requirements
@@ -81,6 +79,13 @@ Please download the fused images by our UMF:
 * Fused_results on RoadScene  [[link](https://pan.baidu.com/s/1aG_CI9fFIhsV2Z2ThMUPQg )] code: 1zuu
 * Fused_results on TNO        [[link](https://pan.baidu.com/s/10Me7GpM_tvHgkWVzv2pv3g )] code: 22gc
 
+<div align=center>
+<img src="https://github.com/wdhudiekou/UMF-CMGR/blob/main/Fig/quntitative_results.png" width="80%">
+</div>
+
+<div align=center>
+<img src="https://github.com/wdhudiekou/UMF-CMGR/blob/main/Fig/qualitative_results.png" width="80%">
+</div>
 
 ## Citation
 ```
