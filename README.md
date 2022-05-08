@@ -1,4 +1,4 @@
-# UMF
+# UMFusion
  
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/wdhudiekou/UMF-CMGR/blob/main/LICENSE)
