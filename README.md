@@ -40,15 +40,14 @@
 
        cd ./Trainer
        python train_fuse.py
-   
-    The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder.
+  The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder.
 
 3. If you tend to train Registration and Fusion processes jointly, You can run following command: 
    ```python
        cd ./Trainer
        python train_reg_fusion.py
 
-T   he corresponding test code 'test_reg_fusion.py' can be found in 'Test' folder.
+  The corresponding test code 'test_reg_fusion.py' can be found in 'Test' folder.
 
 ## Dataset
 Please download the following datasets:
