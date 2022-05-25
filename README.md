@@ -8,6 +8,7 @@
 
 #### [Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration ](https://arxiv.org/pdf/2205.11876.pdf)
 [IJCAI2022 Oral Presentation]
+
 By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
 
 <div align=center>
