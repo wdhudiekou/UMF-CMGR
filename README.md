@@ -23,6 +23,7 @@ By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
 - Pytorch 1.6.0
 - Torchvision 0.7.0
 - OpenCV 3.4
+- Kornia 0.5.11
 
 ## Data preparation
 1. You can obtain deformation infrared images for training/testing process by
