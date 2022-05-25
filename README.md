@@ -13,6 +13,7 @@ By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
 <div align=center>
 <img src="https://github.com/wdhudiekou/UMF-CMGR/blob/main/Fig/network.png" width="80%">
 </div>
+
 ## Updates
 [2022-05-25] Paper is available! 
 
