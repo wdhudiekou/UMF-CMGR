@@ -6,7 +6,8 @@
 [![PyTorch](https://img.shields.io/badge/pytorch-1.6.0-%237732a8)](https://pytorch.org/)
 
 
-#### [Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration [IJCAI2022 Oral Presentation]](https://arxiv.org/pdf/2205.11876.pdf)
+#### [Unsupervised Misaligned Infrared and Visible Image Fusion via Cross-Modality Image Generation and Registration ](https://arxiv.org/pdf/2205.11876.pdf)
+[IJCAI2022 Oral Presentation]
 By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
 
 <div align=center>
