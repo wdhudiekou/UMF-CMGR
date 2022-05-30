@@ -15,8 +15,7 @@ By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
 </div>
 
 ## Updates
-[2022-05-30] The Chinese translation of our paper is available, please enjoy it! [[中译版本](./pdf/CN.pdf)] 
-
+[2022-05-30] The Chinese translation of our paper is available, please enjoy it! [[中译版本](./pdf/CN.pdf)]   
 [2022-05-25] Our paper is available online! [[arXiv version](https://arxiv.org/pdf/2205.11876.pdf)]  
 
 
