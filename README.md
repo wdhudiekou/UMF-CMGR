@@ -57,7 +57,6 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
        python test.py --dataroot datasets/rgb2ir/RoadScene/testA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
     
     ## training
-    ```python
        cd ./CPSTN
        python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
 
