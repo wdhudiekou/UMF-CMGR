@@ -49,19 +49,19 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
        cd ./Test
        python test_reg.py
    
-If you want to generate pseudo-infrared images using our CPSTN for other datasets, you can directly run following commands:
+2. If you want to generate pseudo-infrared images using our CPSTN for other datasets, you can directly run following commands:
 
     ```python
        cd ./CPSTN
        python test.py --dataroot datasets/rgb2ir/RoadScene/testA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
     
-you can also retrain CPSTN using other datasets. First, you need to put training and testing data into folder datasets as principle, then running following commands:
+    you can also retrain CPSTN using other datasets. First, you need to put training and testing data into folder datasets as principle, then running following commands:
 
     ```python
        cd ./CPSTN
        python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
 
-2. If you tend to train Registration and Fusion processes separately, You can run following commands:      
+3. If you tend to train Registration and Fusion processes separately, You can run following commands:      
 
     ```python
        cd ./Trainer
@@ -71,7 +71,7 @@ you can also retrain CPSTN using other datasets. First, you need to put training
        python train_fuse.py
   The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder.
 
-3. If you tend to train Registration and Fusion processes jointly, You can run following command: 
+4. If you tend to train Registration and Fusion processes jointly, You can run following command: 
    ```python
        cd ./Trainer
        python train_reg_fusion.py
