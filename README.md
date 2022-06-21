@@ -61,6 +61,7 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
        python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
    
   The training and testing data of our CPSTN can be downloaded from: [[datasets](https://pan.baidu.com/s/1-U1n945ykHFU7yrEHwGC9Q )] code: u386
+  Please download the [[pretrained model](https://pan.baidu.com/s/1-U1n945ykHFU7yrEHwGC9Q )] code: u386 of CPSTN and put it into folder './CPSTN/checkpoints/pretrained/'
    
 3. If you tend to train Registration and Fusion processes separately, You can run following commands:      
 
