@@ -83,8 +83,8 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
 
 ## Dataset
 Please download the following datasets:
-* RoadScene  [[link](https://github.com/hanna-xu/RoadScene)]
-* TNO        [[link](http://figshare.com/articles/TNO\_Image\_Fusion\_Dataset/1008029)]
+*   [[RoadScene](https://github.com/hanna-xu/RoadScene)]
+*   [[TNO](http://figshare.com/articles/TNO\_Image\_Fusion\_Dataset/1008029)]
 
 ## Experimental Results
 
