@@ -1,0 +1,15 @@
+torch>=1.4.0
+torchvision>=0.5.0
+dominate>=2.4.0
+visdom>=0.1.8.8
+wandb
+
+# --------------- For training and testing --------------- # 
+
+# Training
+python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
+
+# Testing
+python test.py --dataroot datasets/rgb2ir/RoadScene/testA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
+
+
