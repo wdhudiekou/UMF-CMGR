@@ -51,13 +51,13 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
    
 If you want to generate pseudo-infrared images using our CPSTN for other datasets, you can directly run following commands:
 
-```python
+    ```python
        cd ./CPSTN
        python test.py --dataroot datasets/rgb2ir/RoadScene/testA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
     
 you can also retrain CPSTN using other datasets. First, you need to put training and testing data into folder datasets as principle, then running following commands:
 
- ```python
+    ```python
        cd ./CPSTN
        python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
 
