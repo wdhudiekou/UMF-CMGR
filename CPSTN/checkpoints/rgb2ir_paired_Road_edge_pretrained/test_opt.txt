@@ -1,0 +1,41 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: datasets/rgb2ir/testA_warp    	[default: datasets/rgb2ir/testA_rgb/]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: rgb2ir_paired_Road_edge_pretrained
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 1014                          
+              num_threads: 4                             
+                output_nc: 1                             
+                    phase: test                          
+               preprocess: none                          
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
