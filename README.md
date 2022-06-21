@@ -33,7 +33,7 @@ By Di Wang, Jinyuan Liu, Xin Fan, and Risheng Liu
        cd ./data
        python get_test_data.py
    
-In 'Trainer/train_reg.py', deformation infrared images are generated in real time by default during training.
+In 'Trainer/train_reg.py', deformable infrared images are generated in real time by default during training.
 
 2. You can obtain self-visual saliency maps for training IVIF fusion by
     ```python
@@ -48,6 +48,18 @@ In 'Trainer/train_reg.py', deformation infrared images are generated in real tim
 
        cd ./Test
        python test_reg.py
+   
+If you want to generate pseudo-infrared images using our CPSTN for other datasets, you can directly run following commands:
+
+```python
+       cd ./CPSTN
+       python test.py --dataroot datasets/rgb2ir/RoadScene/testA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
+    
+you can also retrain CPSTN using other datasets. First, you need to put training and testing data into folder datasets as principle, then running following commands:
+
+ ```python
+       cd ./CPSTN
+       python train.py --dataroot ./datasets/rgb2ir/RoadScene --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
 
 2. If you tend to train Registration and Fusion processes separately, You can run following commands:      
 
