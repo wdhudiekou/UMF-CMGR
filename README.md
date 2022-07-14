@@ -50,6 +50,8 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
        cd ./Test
        python test_reg.py
    
+  Please download the [pretrained model](https://pan.baidu.com/s/199dqOLHyJS9aY5YecuVglA) (code: hk25) of the registration network MRRN.
+  
 2. If you want to generate pseudo-infrared images using our CPSTN for other datasets, you can directly run following commands:
 
     ```python
