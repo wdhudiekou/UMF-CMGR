@@ -75,7 +75,7 @@ In 'Trainer/train_reg.py', deformable infrared images are generated in real time
 
        cd ./Trainer
        python train_fuse.py
-  The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder.
+  The corresponding test code 'test_reg.py' and 'test_fuse.py' can be found in 'Test' folder. Please download the [pretrained model](https://pan.baidu.com/s/1GZrYrg_qzAfQtoCrZLJsSw) (code: 0rbm) of fusion network DIFN.
 
 4. If you tend to train Registration and Fusion processes jointly, You can run following command: 
    ```python
